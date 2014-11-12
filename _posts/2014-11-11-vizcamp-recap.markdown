@@ -55,7 +55,7 @@ APIs often take an **API key**, which is kind of like a user account for your co
 
 For the curious, there’s a [course on Lynda](http://www.lynda.com/Developer-tutorials/JavaScript-and-AJAX/114900-2.html) all about getting data with javascript.
 
-To get the data into your code, you're going to use `$.ajax` (or the shorter version, [`$.getJSON`](http://api.jquery.com/jQuery.getJSON/).  You can see an overview of jQuery's **ajax** (which stands for **a**synchronous **j**avascript **a**nd **x**ml, basically just a way to get data) functions [here](http://learn.jquery.com/ajax/).
+To get the data into your code, you're going to use `$.ajax` (or the shorter version, [`$.getJSON`](http://api.jquery.com/jQuery.getJSON/)).  You can see an overview of jQuery's **ajax** (which stands for **a**synchronous **j**avascript **a**nd **x**ml, basically just a way to get data) functions [here](http://learn.jquery.com/ajax/).
 
 Once you've requested the data (getting data is called a 'request') log it to the console with `console.log()` and spend some time exploring it by hand.
 
@@ -68,8 +68,8 @@ As soon as you start trying to generate a lot of markup with javascript you’ll
 Using EJS templates is easy.  Once you’ve got a template created (there are examples on the EJS site so I won’t show that here), just render it by running:
 
 {% highlight javascript %}
-var html = new EJS({url: ‘/path/to/my/template.ejs’}).render(data);
-$(‘.some-element’).append(html);
+var html = new EJS({url: '/path/to/my/template.ejs'}).render(data);
+$('.some-element').append(html);
 {% endhighlight %}
 
 
