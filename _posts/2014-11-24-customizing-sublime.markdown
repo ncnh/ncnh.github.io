@@ -5,7 +5,7 @@ date:   2014-11-24 11:00:00
 categories: code sublime tools
 ---
 
-Just want to draw attention to [this awesome post on CSS Tricks](http://css-tricks.com/sublime-text-front-end-developers/?utm_source=dlvr.it&utm_medium=twitter) that has a ton of really useful tips for customizing sublime, plus a few more things you can do with [emmet](http://emmet.io), like these super useful CSS shortcuts:
+Just want to draw attention to *[this awesome post on CSS Tricks](http://css-tricks.com/sublime-text-front-end-developers/)* that has a ton of really useful tips for customizing sublime, plus a few more things you can do with [emmet](http://emmet.io), like these super useful CSS shortcuts:
 
 > * posrel → position: relative;
 > * posab → position: absolute;
