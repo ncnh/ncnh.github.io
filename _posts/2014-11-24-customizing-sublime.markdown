@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why do it the hard way? Sublime text plugins to make coding easier"
+title:  "Why do it the hard way? Sublime Text plugins to make coding easier"
 date:   2014-11-24 11:00:00
 categories: code sublime tools
 ---
